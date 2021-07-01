@@ -3,7 +3,7 @@
 	Gui, One: Add, Text, vCountdown, w100
 	Gui, One: +AlwaysOnTop
 	TempVar := A_ScreenWidth 
-	Gui, One: Show, h%TempVar% w%A_ScreenHeight%
+	Gui, One: Show, w%A_ScreenHeight% h%TempVar%
 	Sleep 500
 	globalnumber :=
 	WinMove, inspiro.ahk,, 0, 0
